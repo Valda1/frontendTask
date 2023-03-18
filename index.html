@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SĀKUMLAPA</title>
     <link href="assets/css/style.css" type="text/css" rel="stylesheet">
 </head>    
@@ -9,8 +9,8 @@
 <body>
 
     <header>
-        <div class="header-elements" id="logo-img">
-           <img src="assets/img/BlackLogo 3.jpg" alt="logo"> 
+        <div class="header-elements">
+           <img class="images" id="logo-img" src="assets/img/BlackLogo 3.jpg" alt="logo"> 
         </div>
         
         <div class="header-elements">
@@ -32,11 +32,21 @@
     </header>
 
     <main>
-        <div id="sparkle-video">
-            <img src="assets/img/Sparkle Video 1.png" alt="video">
-            <!-- PLACE VECTOR IMAGE-->
-        </div>
 
+
+        <div>
+            <img class="images"  id="sparkle-video" src="assets/img/Sparkle Video 1.png" alt="video">
+            <!--PLACE VECTOR IMAGE-->
+        </div>
+    
+
+    <!-- 
+
+        <picture>
+            <source srcset="assets/img/Sparkle Video 1.png" media="(max-width: 100%)">
+            <img class="images" id="sparkle-video" src="assets/img/Sparkle Video 1.png" alt="video">
+        </picture>
+-->
         <div>
             <p id="text">
                 SparkleHeart ir biedrība, kas radīta, lai palīdzētu cilvēkiem piepildīt pat <br>
@@ -47,39 +57,64 @@
             </p>
         </div>
 
-        <div class="images">
-            <img id="img-zanda" src="assets/img/Zanda_1.jpg" alt="image">
-            <img id="img-sibilla" src="assets/img/Sibilla_4.jpg" alt="image">
-            <img id="img-meita" src="assets/img/Brinuma_meita-15.jpg" alt="image">
-            <img id="img-alina" src="assets/img/Alina_1 1.jpg" alt="image">
-            <img id="img-anda" src="assets/img/Anda_2 1.jpg" alt="image">
+        <div>
+            <img class="images" id="img-zanda" src="assets/img/Zanda_1.jpg" alt="image">
+            <img class="images" id="img-sibilla" src="assets/img/Sibilla_4.jpg" alt="image">
+            <img class="images" id="img-meita" src="assets/img/Brinuma_meita-15.jpg" alt="image">
+            <img class="images" id="img-alina" src="assets/img/Alina_1 1.jpg" alt="image">
+            <img class="images" id="img-anda" src="assets/img/Anda_2 1.jpg" alt="image">
         </div>
 
         <div>
-            <p>
+            <!--<p>
                 <span id="question-1"><b>VĒLIES PIEPILDĪT SAVU SAPNI?</b> </span>
                 <span id="question-2"><b>VĒLIES PALĪDZĒT KĀDAM PIEPILDĪT SAPNI?</b> </span>
-            </p>
+            </p>-->
+
+            <h2> 
+                <span id="question-1"><b>VĒLIES PIEPILDĪT SAVU SAPNI?</b> </span>
+                <span id="question-2"><b>VĒLIES PALĪDZĒT KĀDAM PIEPILDĪT SAPNI?</b> </span>
+            </h2>
         
-            <button id="button-1">Sapņotājiem</button>
-            <button id="button-2">Uzņēmējiem</button>
+            <button class="buttons" id="button-1">Sapņotājiem</button>
+            <button class="buttons" id="button-2">Uzņēmējiem</button>
         </div>
 
         <div>
-            <p id="headline-1"><b>SAZINĀTIES AR MUMS</b> </p>
+
+            <h1 id="headline-1"> <b>SAZINĀTIES AR MUMS</b></h1>
         
             <textarea>Vārds, Uzvārds*</textarea>
             <textarea>E-pasts*</textarea>
             <textarea>Telefons*</textarea>
             <textarea>Jautājums vai komentārs*</textarea>
+        
+
+            <!--
+            <input type="text">
+            <input type="email">
+            <input type="tel">
+            <input type="text">
+        -->
+            
             <p>*obligāti aizpildāmie lauki</p>
+
             <input type="checkbox">
-            <p>Piekrītu, ka mani dati tiks izmantoti likumdošanā noteiktā kārtībā un tiks 
-                saglabāti līdz brīdim, kamēr tas būs nepieciešams.</p>
-            <button>Sūtīt</button>
+            <label>Piekrītu, ka mani dati tiks izmantoti likumdošanā noteiktā kārtībā un tiks <br>
+                saglabāti līdz brīdim, kamēr tas būs nepieciešams.</label>
+            
+            <button class="buttons" id="button-3">Sūtīt</button>
+        </div>
+
+        <div>
+            <!--UNION -->
         </div>
 
     </main>
+
+    <footer>
+        <img class="images" id="footer-logo" src="assets/img/GoldenV2Logo 3.png" alt="logo">
+    </footer>
 
 
 </body>
