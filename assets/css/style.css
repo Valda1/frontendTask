@@ -1,0 +1,229 @@
+header{
+    white-space: nowrap;
+    position: static;
+    width: 1366px;
+    height: 92.51px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFFFFF;
+}
+
+.header-elements{
+    display: inline-block;
+}
+
+#logo-img{
+    position: static;
+    width: 159px;
+    height: 146px;
+    left: 62px;
+    top: -50px;
+}
+
+#list-elements{
+    position: static;
+    top: 51px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #060606;
+}
+
+#list-element-1{
+    width: 46px;
+    height: 24px;
+    left: 305px;
+}
+
+#list-element-2{
+    width: 130px;
+    height: 24px;
+    left: 386px;
+}
+
+#list-element-3{
+    width: 120px;
+    height: 24px;
+    left: 543px;
+}
+
+#list-element-4{
+    width: 123px;
+    height: 45px;
+    left: 698px;
+}
+
+#list-element-5{
+    width: 153px;
+    height: 45px;
+    left: 856px;
+}
+
+#list-element-6{
+    width: 188px;
+    height: 29px;
+    left: 1036px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+#sparkle-video{
+    position: static;
+    width: 1366px;
+    height: 722px;
+    left: 0px;
+    top: 47px;
+}
+
+#text{
+    position: static;
+    width: 654px;
+    height: 114px;
+    left: 359px;
+    top: 919px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #2F4858;
+}
+
+#img-zanda{
+    position: static;
+    width: 328px;
+    height: 355px;
+    left: 0px;
+    top: 1197px;
+}
+
+#img-sibilla{
+    position: static;
+    width: 334px;
+    height: 364px;
+    left: 328px;
+    top: 1202px;
+}
+
+#img-meita{
+    position: static;
+    width: 298px;
+    height: 180px;
+    left: 662px;
+    top: 1202px;
+}
+
+#img-alina{
+    position: static;
+    width: 298px;
+    height: 184px;
+    left: 662px;
+    top: 1382px;
+}
+
+#img-anda{
+    position: static;
+    width: 406px;
+    height: 383px;
+    left: 960px;
+    top: 1183px;
+}
+
+#question-1{
+    position: static;
+    width: 394px;
+    height: 29px;
+    left: 220px;
+    top: 1731px;
+    
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    
+    color: #2F4858;
+}
+
+#question-2{
+    position: static;
+    width: 500px;
+    height: 29px;
+    left: 698px;
+    top: 1731px;
+    
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    
+    color: #2F4858;
+}
+
+#button-1{
+    position: static;
+    width: 233px;
+    height: 50px;
+    left: 300px;
+    top: 1810px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+#button-2{
+    position: absolute;
+    width: 233px;
+    height: 50px;
+    left: 832px;
+    top: 1810px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+#headline-1{
+    position: static;
+    width: 819px;
+    height: 48px;
+    left: 274px;
+    top: 2010px;
+
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 44px;
+    text-align: center;
+
+    color: #2F4858;
+}
