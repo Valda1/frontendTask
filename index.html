@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SĀKUMLAPA</title>
-    <link href="assets/css/style.css" type="text/css" rel="stylesheet">
+    <link href="assets/css/style.css" type="text/css" @media only screen and (max-width: 900px) rel="stylesheet">
 </head>    
 
 <body>
 
     <header>
         <div class="header-elements">
-           <img class="images" id="logo-img" src="assets/img/BlackLogo 3.jpg" alt="logo"> 
+           <img class="images" id="logo-img" src="assets/img/BlackLogo 3.jpg" alt="logo">
         </div>
         
         <div class="header-elements">
             <ul>
-                <li id="list-elements">
+                <li class="list-elements">
                     <a id="list-element-1" href="#">Ideja</a>
                     <a id="list-element-2" href="#">Piesaki Sapni</a>
                     <a id="list-element-3" href="#">Uzņēmējiem</a>
@@ -33,10 +34,10 @@
 
     <main>
 
-
         <div>
+            <img class="images img-border" src="assets/img/ripped 6 7.png" alt="image"> 
             <img class="images"  id="sparkle-video" src="assets/img/Sparkle Video 1.png" alt="video">
-            <!--PLACE VECTOR IMAGE-->
+            <img class="images" id="play-button" src="assets/img/Vector.png" alt="play button">
         </div>
     
 
@@ -57,15 +58,17 @@
             </p>
         </div>
 
-        <div>
+        <div class="img-container">
+            <img class="images img-border" id="ripped-top" src="assets/img/ripped 6 7.png" alt="image">
             <img class="images" id="img-zanda" src="assets/img/Zanda_1.jpg" alt="image">
             <img class="images" id="img-sibilla" src="assets/img/Sibilla_4.jpg" alt="image">
             <img class="images" id="img-meita" src="assets/img/Brinuma_meita-15.jpg" alt="image">
             <img class="images" id="img-alina" src="assets/img/Alina_1 1.jpg" alt="image">
             <img class="images" id="img-anda" src="assets/img/Anda_2 1.jpg" alt="image">
+            <img class="images img-border" id="ripped-bottom" src="assets/img/ripped 6 8.png" alt="image">
         </div>
 
-        <div>
+        <div class="questions">
             <!--<p>
                 <span id="question-1"><b>VĒLIES PIEPILDĪT SAVU SAPNI?</b> </span>
                 <span id="question-2"><b>VĒLIES PALĪDZĒT KĀDAM PIEPILDĪT SAPNI?</b> </span>
@@ -84,36 +87,63 @@
 
             <h1 id="headline-1"> <b>SAZINĀTIES AR MUMS</b></h1>
         
+            <!--
             <textarea>Vārds, Uzvārds*</textarea>
             <textarea>E-pasts*</textarea>
             <textarea>Telefons*</textarea>
             <textarea>Jautājums vai komentārs*</textarea>
+        -->
         
 
-            <!--
-            <input type="text">
-            <input type="email">
-            <input type="tel">
-            <input type="text">
-        -->
             
-            <p>*obligāti aizpildāmie lauki</p>
+            <input id="input-name" type="text">
+            <input id="input-email" type="email">
+            <input id="input-tel" type="tel">
+            <input id="input-text" type="text">
+        
+            
+            <p id="info">*obligāti aizpildāmie lauki</p>
 
-            <input type="checkbox">
-            <label>Piekrītu, ka mani dati tiks izmantoti likumdošanā noteiktā kārtībā un tiks <br>
-                saglabāti līdz brīdim, kamēr tas būs nepieciešams.</label>
+            <input id="input-checkbox" type="checkbox">
+            <!--
+            <label id="label">Piekrītu, ka mani dati tiks izmantoti likumdošanā noteiktā kārtībā un tiks <br>
+                saglabāti līdz brīdim, kamēr tas būs nepieciešams.</label> -->
+
+            <p id="agreement">Piekrītu, ka mani dati tiks izmantoti likumdošanā noteiktā kārtībā un tiks <br>
+                saglabāti līdz brīdim, kamēr tas būs nepieciešams.</p>    
             
             <button class="buttons" id="button-3">Sūtīt</button>
         </div>
 
-        <div>
-            <!--UNION -->
+        <div id="bottom">
+
+            <img class="images" src="assets/img/ripped 6 7.png" alt="image">
+
+            <h2 id="headline-2">ATBALSTĪTĀJI</h2>
+
+            <img class="images" src="assets/img/getlogo 1.png" alt="image">
+            <img class="images" src="assets/img/Vector (1).png" alt="image">
+            <img class="images" src="assets/img/Vector (2).png" alt="image">
+            <img class="images" src="assets/img/Vector (3).png" alt="image">
+            <img class="images" src="assets/img/Vector (4).png" alt="image">
+            <img class="images" src="assets/img/Citybee-logo 1.png" alt="image">
+            <img class="images" src="assets/img/logo1 1.png" alt="image">
         </div>
 
     </main>
 
-    <footer>
+    <footer id="footer">
+        <img class="images" src="assets/img/ripped 6 7.png" alt="image">
         <img class="images" id="footer-logo" src="assets/img/GoldenV2Logo 3.png" alt="logo">
+
+        <section>
+            <p>Ideja</p>
+            <p>Piesaki sapni</p>
+        </section>
+
+        <section>
+            <p>Biedrība SparkleHeart</p>
+        </section>
     </footer>
 
 

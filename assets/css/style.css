@@ -1,26 +1,25 @@
 .images{
     max-width: 100%;
     height: auto;
+    //float: left;
+    //display: inline-block;
 }
 
 header{
     white-space: nowrap;
     position: static;
-    width: 1366px;
-    height: 92.51px;
-    left: 0px;
-    top: 0px;
+    margin-right: 50px;
+    margin-left: 50px;
 
     background: #FFFFFF;
 }
 
 .header-elements{
-    display: inline-block;
+   display: inline-block;
 }
 
-#list-elements{
+.list-elements{
     position: static;
-    top: 51px;
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -32,68 +31,107 @@ header{
 }
 
 #list-element-1{
-    width: 46px;
-    height: 24px;
-    left: 305px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 #list-element-2{
-    width: 130px;
-    height: 24px;
-    left: 386px;
+    margin-right: 50px;
 }
 
 #list-element-3{
-    width: 120px;
-    height: 24px;
-    left: 543px;
+    margin-right: 50px;
 }
 
 #list-element-4{
-    width: 123px;
-    height: 45px;
-    left: 698px;
+    margin-right: 50px;
 }
 
 #list-element-5{
-    width: 153px;
-    height: 45px;
-    left: 856px;
+    margin-right: 50px;
 }
 
 #list-element-6{
-    width: 188px;
-    height: 29px;
-    left: 1036px;
+    //width: 188px;
+    //height: 29px;
+    //left: 1036px;
 }
 
 ul{
     list-style-type: none;
 }
 
+/*.img-border{
+    position: absolute;
+    //display: block;
+}*/
+
+#play-button{
+    position: absolute;
+    //display: grid;
+    //place-items: center;
+    top: 400px;
+    left: 50%;
+    margin-left: -100px;
+    //background-color: white;
+}
+
 #text{
     position: static;
-    width: 654px;
-    height: 114px;
-    left: 359px;
-    top: 919px;
+    margin-top: 75px;
+    margin-bottom: 75px;
 
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 22px;
+    //line-height: 22px;
     text-align: center;
 
     color: #2F4858;
 }
 
+.img-container{
+    font-size: 0;
+}
+
+/*#ripped-top{
+    position: absolute;
+}
+
+#ripped-bottom{
+    position: absolute;
+}*/
+
+/*#img-meita{
+    position: relative;
+    bottom: 170px;
+}
+
+#img-alina{
+    position: relative;
+    right: 298px;
+    top: 15px;
+}
+
+#img-anda{
+    position: relative;
+    bottom: 250px;
+    left: 400px;
+}*/
+
+/*.questions{
+    clear: both;
+}*/
+
 #question-1{
     position: static;
-    width: 394px;
-    height: 29px;
-    left: 220px;
-    top: 1731px;
+    
+    //left: 220px;
+    //top: 1731px;
+
+    margin-left: 220px;
+    margin-top: 1731px;
     
     font-family: 'Oswald';
     font-style: normal;
@@ -107,10 +145,12 @@ ul{
 
 #question-2{
     position: static;
-    width: 500px;
-    height: 29px;
-    left: 698px;
-    top: 1731px;
+
+    margin-left: 698px;
+    margin-top: 1731;
+    
+    //left: 698px;
+    //top: 1731px;
     
     font-family: 'Oswald';
     font-style: normal;
@@ -122,48 +162,53 @@ ul{
     color: #2F4858;
 }
 
-#button-1{
+.buttons{
     position: static;
-    width: 233px;
-    height: 50px;
-    left: 300px;
-    top: 1810px;
-    
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
-    line-height: 22px;
-    display: flex;
+    //line-height: 22px;
     align-items: center;
     text-align: center;
     
     color: #FFFFFF;
+    border-radius: 12px;
+    padding: 10px 20px;
+}
+
+#button-1{
+    //position: static;
+    
+    //left: 300px;
+    //top: 1810px;
+
+    margin-left: 300px;
+    margin-top: 10px;
+    
+    //display: inline-block;
+    background-color: orange;
 }
 
 #button-2{
-    position: absolute;
-    width: 233px;
-    height: 50px;
-    left: 832px;
-    top: 1810px;
+    //position: static;
     
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 22px;
-    display: flex;
-    align-items: center;
-    text-align: center;
+    //left: 832px;
+    //top: 1810px;
+
+    margin-left: 832px;
+    margin-top: 10px;
     
-    color: #FFFFFF;
+    
+    //display: inline-block;
+    background-color: orange;
+    
 }
 
 #headline-1{
     position: static;
-    width: 819px;
-    height: 48px;
+    //width: 819px;
+    //height: 48px;
     left: 274px;
     top: 2010px;
 
@@ -177,21 +222,133 @@ ul{
     color: #2F4858;
 }
 
-#button-3{
+#input-name{
     position: static;
-    width: 182px;
-    height: 62px;
-    left: 592px;
-    top: 2615px;
+    margin-left: 377px;
+    //margin-top: 2113px;
+
+    background: rgba(196, 196, 196, 0.4);
+    border-radius: 6px;
+}
+
+#input-email{
+    position: static;
+    left: 693px;
+    //top: 2113px;
+
+    background: rgba(196, 196, 196, 0.4);
+    border-radius: 6px;
+}
+
+#input-tel{
+    display: block;
+    position: static;
+
+    margin-left: 377px;
+    margin-top: 20px;
+
+    background: rgba(196, 196, 196, 0.4);
+    border-radius: 6px;
+}
+
+#input-text{
+    display: block;
+    position: static;
+
+    margin-left: 377px;
+    margin-top: 20px;
+
+    background: rgba(196, 196, 196, 0.4);
+    border-radius: 6px;
+}
+
+#info{
+    position: static;
+    margin-left: 377px;
+    margin-top: 10px;
 
     font-family: 'Montserrat';
     font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #2F4858;
+}
+
+/*#label{
+    position: static;
+
+    //margin-left: 10px;
+    //margin-top: 2526px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #2F4858;
+}*/
+
+#agreement{
+    position: static;
+    display: inline-block;
+}
+
+#input-checkbox{
+    position: static;
+    display: inline-block;
+
+    margin-left: 380px;
+    //margin-top: 2529px;
+
+    background: #E7E7E7;
+    border-radius: 3px;
+}
+
+#button-3{
+    //position: static;
+    
+    margin-left: 592px;
+    margin-top: 15px;
+
+
+    display: block;
+    background-color: #EC9706;
+}
+
+#headline-2{
+    position: static;
+
+    margin-left: 50px;
+    margin-top: 50px;
+
+    font-family: 'Oswald';
+    font-style: normal;
     font-weight: 500;
     font-size: 24px;
-    line-height: 29px;
-    display: flex;
-    align-items: center;
+    line-height: 36px;
     text-align: center;
 
-    color: #FFFFFF;
+    color: #2F4858;
+}
+
+#bottom{
+    position: static;
+
+    //left: 0px;
+    //top: 2827px;
+
+background: #FFCB66;
+}
+
+#footer{
+    position: static;
+    left: 0%;
+    right: 0%;
+    top: 13.74%;
+    bottom: 0%;
+
+    background: #2F4858;
 }
