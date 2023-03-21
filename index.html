@@ -9,13 +9,13 @@
 
 <body>
 
-    <header>
+    <header class="header" id="header">
         <div class="header-elements">
-           <img class="images" id="logo-img" src="assets/img/BlackLogo 3.jpg" alt="logo">
+           <img class="logoes" id="header-logo" src="assets/img/BlackLogo 3.jpg" alt="logo">
         </div>
         
-        <div class="header-elements">
-            <ul>
+        <nav class="header-elements">
+            <ul class="lists" id="header-list">
                 <li class="list-elements">
                     <a id="list-element-1" href="#">Ideja</a>
                     <a id="list-element-2" href="#">Piesaki Sapni</a>
@@ -25,29 +25,21 @@
                     <a id="list-element-6" href="#">99 iedvesmas stāsti</a>
                 </li>
             </ul>
-        </div>
+        </nav>
 
-        <div>
-            <!-- LV -->
+        <div class="header-elements" id="lang">
+            <p>LV</p>
         </div>
     </header>
 
     <main>
 
         <div>
-            <img class="images img-border" src="assets/img/ripped 6 7.png" alt="image"> 
             <img class="images"  id="sparkle-video" src="assets/img/Sparkle Video 1.png" alt="video">
-            <img class="images" id="play-button" src="assets/img/Vector.png" alt="play button">
+            <img id="play-button" src="assets/img/Vector.png" alt="play button">
         </div>
     
 
-    <!-- 
-
-        <picture>
-            <source srcset="assets/img/Sparkle Video 1.png" media="(max-width: 100%)">
-            <img class="images" id="sparkle-video" src="assets/img/Sparkle Video 1.png" alt="video">
-        </picture>
--->
         <div>
             <p id="text">
                 SparkleHeart ir biedrība, kas radīta, lai palīdzētu cilvēkiem piepildīt pat <br>
@@ -58,32 +50,72 @@
             </p>
         </div>
 
-        <div class="img-container">
-            <img class="images img-border" id="ripped-top" src="assets/img/ripped 6 7.png" alt="image">
-            <img class="images" id="img-zanda" src="assets/img/Zanda_1.jpg" alt="image">
-            <img class="images" id="img-sibilla" src="assets/img/Sibilla_4.jpg" alt="image">
-            <img class="images" id="img-meita" src="assets/img/Brinuma_meita-15.jpg" alt="image">
-            <img class="images" id="img-alina" src="assets/img/Alina_1 1.jpg" alt="image">
-            <img class="images" id="img-anda" src="assets/img/Anda_2 1.jpg" alt="image">
-            <img class="images img-border" id="ripped-bottom" src="assets/img/ripped 6 8.png" alt="image">
+        <!--
+
+        <div class="images">
+        <div class="wrap1 wrap">
+            <div class="home-img-wrap img1"> <img class="img-fluid img-1" src="assets/img/Zanda_1.jpg" alt="image"></div>
+            <div class="home-img-wrap img2">  <img class="img-fluid img-2" src="assets/img/Sibilla_4.jpg" alt="image"></div>
         </div>
+
+        <div class="wrap">
+            <div class="home-img-wrap img-wrap">
+            <img class="img-fluid img-3" id="img-meita" src="assets/img/Brinuma_meita-15.jpg" alt="image">
+            <img class="img-fluid img-4" id="img-alina" src="assets/img/Alina_1 1.jpg" alt="image">
+        </div>
+            <div class="home-img-wrap">
+            <img class="img-fluid" src="assets/img/Anda_2 1.jpg" alt="image">
+            </div>
+
+        </div> 
+        
+        </div>-->
+
+        <div class="images">
+
+            <div class="img-wrap-container" id="img-wrap-container">
+
+                <div class="img-wrap img-wrap-1" id="img-wrap-1">
+                    <div> <img id="img-1" src="assets/img/Zanda_1.jpg" alt="image"></div>
+                </div>
+
+                <div class="img-wrap img-wrap-2" id="img-wrap-2">
+                    <div> <img id="img-2" src="assets/img/Sibilla_4.jpg" alt="image"></div>
+                </div>
+    
+                <div class="img-wrap img-wrap-3" id="img-wrap-3">
+                    <img id="img-3" src="assets/img/Brinuma_meita-15.jpg" alt="image">
+                    <img id="img-4" src="assets/img/Alina_1 1.jpg" alt="image">
+                </div>   
+                
+            
+                <div class="img-wrap img-wrap-4" id="img-wrap-4">
+                    <img id="img-5" src="assets/img/Anda_2 1.jpg" alt="image">
+                </div>
+    
+                </div>
+
+            </div>
+        
 
         <div class="questions">
-            <!--<p>
-                <span id="question-1"><b>VĒLIES PIEPILDĪT SAVU SAPNI?</b> </span>
-                <span id="question-2"><b>VĒLIES PALĪDZĒT KĀDAM PIEPILDĪT SAPNI?</b> </span>
-            </p>-->
 
-            <h2> 
+            <div class="questions-wrap">
+              <h2> 
                 <span id="question-1"><b>VĒLIES PIEPILDĪT SAVU SAPNI?</b> </span>
                 <span id="question-2"><b>VĒLIES PALĪDZĒT KĀDAM PIEPILDĪT SAPNI?</b> </span>
-            </h2>
+            </h2>  
+            </div>
+
+            <div class="buttons-wrap">
+                <button class="buttons" id="button-1">Sapņotājiem</button>
+                <button class="buttons" id="button-2">Uzņēmējiem</button> 
+            </div>
         
-            <button class="buttons" id="button-1">Sapņotājiem</button>
-            <button class="buttons" id="button-2">Uzņēmējiem</button>
+            
         </div>
 
-        <div>
+        <div class="form">
 
             <h1 id="headline-1"> <b>SAZINĀTIES AR MUMS</b></h1>
         
@@ -94,25 +126,41 @@
             <textarea>Jautājums vai komentārs*</textarea>
         -->
         
+        <div class="form-elements input-first-line">
+            <input id="input-name" type="text" placeholder="Vārds, Uzvārds*">
+            <input id="input-email" type="email" placeholder="E-pasts*">
+        </div>
 
-            
-            <input id="input-name" type="text">
-            <input id="input-email" type="email">
-            <input id="input-tel" type="tel">
-            <input id="input-text" type="text">
-        
-            
-            <p id="info">*obligāti aizpildāmie lauki</p>
+        <div class="form-elements input-second-line">
+            <input id="input-tel" type="tel" placeholder="Telefons*">
+        </div>
 
+        <div class="form-elements input-third-line">
+            <input id="input-text" type="text" placeholder="Jautājums, vai komentārs*">
+        </div>
+ 
+        <div class="form-elements">
+           <p id="info">*obligāti aizpildāmie lauki</p> 
+        </div>    
+
+        <div class="form-elements">
             <input id="input-checkbox" type="checkbox">
+        </div>
+        
+        <div class="form-elements">
             <!--
             <label id="label">Piekrītu, ka mani dati tiks izmantoti likumdošanā noteiktā kārtībā un tiks <br>
                 saglabāti līdz brīdim, kamēr tas būs nepieciešams.</label> -->
 
             <p id="agreement">Piekrītu, ka mani dati tiks izmantoti likumdošanā noteiktā kārtībā un tiks <br>
-                saglabāti līdz brīdim, kamēr tas būs nepieciešams.</p>    
+                saglabāti līdz brīdim, kamēr tas būs nepieciešams.</p> 
+        </div>
             
+        <div class="form-elements">
             <button class="buttons" id="button-3">Sūtīt</button>
+        </div>       
+            
+            
         </div>
 
         <div id="bottom">
@@ -121,21 +169,41 @@
 
             <h2 id="headline-2">ATBALSTĪTĀJI</h2>
 
-            <img class="images" src="assets/img/getlogo 1.png" alt="image">
-            <img class="images" src="assets/img/Vector (1).png" alt="image">
-            <img class="images" src="assets/img/Vector (2).png" alt="image">
-            <img class="images" src="assets/img/Vector (3).png" alt="image">
-            <img class="images" src="assets/img/Vector (4).png" alt="image">
-            <img class="images" src="assets/img/Citybee-logo 1.png" alt="image">
-            <img class="images" src="assets/img/logo1 1.png" alt="image">
+            <div class="logo-container">
+               <div class="logo-wrap-1">
+                    <img class="logoes" src="assets/img/getlogo 1.png" alt="image">
+                </div>
+
+                <div class="logo-wrap-2">
+                    <img class="logoes" src="assets/img/Vector (1).png" alt="image">
+                    <img class="logoes" src="assets/img/Vector (2).png" alt="image">
+                    <img class="logoes" src="assets/img/Vector (3).png" alt="image">
+                    <img class="logoes" src="assets/img/Vector (4).png" alt="image">
+                </div>
+
+                <div class="logo-wrap-3">
+                    <img class="logoes" src="assets/img/Citybee-logo 1.png" alt="image">
+                </div>
+            
+                <div class="logo-wrap-4">
+                    <img class="logoes" src="assets/img/logo1 1.png" alt="image"> 
+                </div> 
+
+            </div>
+
         </div>
+
+        <!--<div>
+            <img id="footer-img" src="assets/img/ripped 6 7.png" alt="image">
+        </div>-->
 
     </main>
 
     <footer id="footer">
-        <img class="images" src="assets/img/ripped 6 7.png" alt="image">
-        <img class="images" id="footer-logo" src="assets/img/GoldenV2Logo 3.png" alt="logo">
+        
+        
 
+        <!--
         <section>
             <p>Ideja</p>
             <p>Piesaki sapni</p>
@@ -143,7 +211,61 @@
 
         <section>
             <p>Biedrība SparkleHeart</p>
-        </section>
+        </section>-->
+
+        <div class="footer-container">
+
+            <div class="footer-column-1">
+                <div>
+                    <img class="images" id="footer-logo" src="assets/img/GoldenV2Logo 3.png" alt="logo">
+                </div>
+
+                <div>
+                    <p>
+                        © SparkleHeart 2020.<br>Visas tiesības aizsargātas.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="footer-column-2">
+                <div class="footer-list" id="footer-list">
+                    <ul class="lists" id="list-2">
+                        <li class="list-elements footer-list-elements">
+                            <a id="list-element-1.2" href="#">Ideja</a>
+                            <a id="list-element-2.2" href="#">Piesaki Sapni</a>
+                            <a id="list-element-3.2" href="#">Uzņēmējiem</a>
+                            <a id="list-element-4.2" href="#">Sapņu banka</a>
+                            <a id="list-element-5.2" href="#">Sapņus atbalsta</a>
+                            <a id="list-element-6.2" href="#">99 iedvesmas stāsti</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-column-3">
+                <div>
+                    <h3>Biedrība SparkleHeart</h3>
+                </div>
+
+                <div>
+
+                </div>
+
+            </div>
+
+            <div class="footer-column-4">
+                <div>
+                    <h3>Juris Gogulis</h3>
+                </div>
+
+                <div>
+                    
+                </div>
+
+            </div>
+
+        </div>
     </footer>
 
 
