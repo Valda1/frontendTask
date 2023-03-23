@@ -2,7 +2,7 @@ var scrollButton = document.getElementById("scrollButton");
 
 function goToTop(){
     document.documentElement.scrollTop = 0;
-    //document.body.scrollTop = 0;
+    document.body.scrollTop = 0;
 }
 
 window.onscroll = function() {scrollFunction()};
@@ -15,6 +15,8 @@ function scrollFunction() {
     }
   }
 
-  //window.onscroll = function() {scrollFunction()};
+  var footer = document.querySelector('#footer');
+
+
 
 
